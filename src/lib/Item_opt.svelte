@@ -1,0 +1,70 @@
+<script lang="ts">
+  let visible = true;
+</script>
+
+<div>
+  {#if visible}
+    <svg
+      width="199"
+      height="35"
+      viewBox="0 0 199 35"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="Pencil">
+        <g id="Front">
+          <path
+            id="Vector16"
+            d="M23.3333 8.75L0 17.5L23.3333 26.25V8.75Z"
+            fill="#454545"
+          />
+          <path
+            id="Vector 17"
+            d="M46.6666 0L23.3333 8.75V26.25L46.6666 35V0Z"
+            fill="#A3906A"
+          />
+        </g>
+        <path id="Vector 18" d="M175 0H46.6667V5.83333H175V0Z" fill="#9C9836" />
+        <path
+          id="Vector 21"
+          d="M175 29.1667H46.6667V35H175V29.1667Z"
+          fill="#737028"
+        />
+        <path
+          id="Vector 19"
+          d="M175 5.83331H46.6667V17.5H175V5.83331Z"
+          fill="#C1BC45"
+        />
+        <path
+          id="Vector 20"
+          d="M175 17.5H46.6667V29.1667H175V17.5Z"
+          fill="#A19D3A"
+        />
+        <g id="eraser">
+          <path
+            id="Rectangle 105"
+            d="M175 0H180.833V35H175V0Z"
+            fill="#979797"
+          />
+          <path
+            id="Rectangle 106"
+            d="M180.833 0H193.333C196.095 0 198.333 2.23858 198.333 5V30C198.333 32.7614 196.095 35 193.333 35H180.833V0Z"
+            fill="#AD5060"
+          />
+        </g>
+      </g>
+    </svg>
+  {/if}
+</div>
+
+<style>
+  div {
+    position: relative;
+    left: 0;
+    bottom: -18px;
+  }
+
+  #Vector16 {
+    fill: rgb(49, 213, 9);
+  }
+</style>
